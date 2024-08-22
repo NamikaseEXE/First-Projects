@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>First Example</title>
+	<link href="bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="card border-fixed mt-2 p-3" style="box-shadow: 0px 0px 23px -8px rgba(0,0,0,0.48);">
+
+			<!-- HEADER HELLLO -->
+			<div class="card-header text-center fw-bolder text-darkblue h3 p-3">
+				Factura
+				<div class="text-start my-4 ms-2">
+					<a href="#" class="btn btn-blueservextex fw-bold py-2 px-4">
+						<i class="bi bi-floppy-fill"></i>
+						Grabar
+					</a>
+					<a href="#" class="btn btn-blueservextex fw-bold py-2 px-4">
+						<i class="bi bi-ban"></i>
+						Cancelar
+					</a>
+				</div>
+			</div>
+
+			<!-- BODY -->
+			<div class="card-body fw-cbold">
+				<div class="row">
+					<div class="col-md-3 col-5">
+						<div>CODIGO</div>
+						<div class="input-group mb-3 ">
+							<span class="input-group-text py-0 border-input" id="inputGroup-sizing-lg">
+								<i class="bi bi-usb-symbol"></i>
+							</span>
+							<input type="text" class="form-control border-input" placeholder="" aria-label="Codigo"
+								aria-describedby="basic-addon1">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div>NOMBRE</div>
+						<div class="input-group mb-3 ">
+							<span class="input-group-text py-0 border-input">
+								<i class="bi bi-pencil-square"></i>
+							</span>
+							<input type="text" class="form-control border-input" placeholder="" aria-label="Codigo"
+								aria-describedby="basic-addon1">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div>ALMACEN</div>
+						<div class="input-group mb-3">
+							<span class="input-group-text py-0 border-input">
+								<i class="bi bi-record-circle-fill icon p-1"></i>
+							</span>
+
+							<select class="form-select border-input" id="inputGroupSelect01">
+								<option selected>ALMACEN PRINCIPAL</option>
+								<option value="1">COCINA</option>
+								<option value="2">BAÑO</option>
+								<option value="3">LICUADORA</option>
+							</select>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<div>DIRECCION</div>
+						<!-- <div class="input-group mb-3">
+							<input type="text" class="form-control" placeholder="" aria-label="Username"
+								aria-describedby="basic-addon1" style="height: 100px;">
+						</div> -->
+						<textarea class="form-control" rows="5" cols="5" style="resize: none;"></textarea>
+					</div>
+				</div>
+
+
+				<div class="row mt-5">
+					<div class="col-md-6" style="height: 70px;">
+						<span class="small-bt fw-bold">BUSCAR POR</span> <span class="small-bt fw-bold"
+							style="margin-left: 3px;">NOMBRE</span>
+						<div class="input-group mb-3 ">
+							<span class="input-group-text py-0 border-input">
+								<i class="bi bi-search icon-md"></i>
+							</span>
+							<input type="text" class="form-control border-input" placeholder="" aria-label="Codigo"
+								aria-describedby="basic-addon1">
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<div class="col">
+						<div class="card border-0">
+							<div class="card-header b-top bg-blueservextex text-white h3 text-center">
+								<i class="bi bi-card-list"></i>
+								Listado
+							</div>
+							<div class="card-body p-0">
+								<table class="table table-sm table-borderless mb-0">
+									<tr class="border-bottom">
+										<th>Nombre</th>
+										<th>Almacen Principal</th>
+									</tr>
+									<tr>
+										<td>OFICINA</td>
+										<td>ALMACEN PRINCIPAL</td>
+									</tr>
+									<tr class="border-bottom">
+										<td colspan="2" class="pt-2">
+											<span class="small-bt fw-bold">CANT:1</span>
+										</td>
+									</tr>
+								</table>
+
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div class="container">
+		<div class="text-secondary">Copyright © CGVentas ❤ by <strong class="text-dark">Servextex S.R.L</strong></div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.carousel-item {
+    max-height: 700px;
+}
+
+.carousel-item img {
+    max-width: 700px;
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.border-fixed {
+    border-radius: 20px !important;
+}
+
+.border-input {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+
+.fw-cbold {
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 12px;
+}
+
+.small-bt {
+    background-color: rgb(56, 56, 110);
+    color: rgb(230, 230, 230);
+    font-size: small;
+    padding: 0px 10px 0px 10px;
+    display: inline-block;
+    margin-bottom: 3px;
+    border-radius: 9px;
+}
+
+.icon-md {
+    font-size: 15px;
+}
+
+.b-top {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.h-row {
+    height: 10px;
+}
+
+.no-border {
+    border: 0;
+}
+
+body {
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background: linear-gradient(0deg, rgb(242, 242, 255) 50%, rgba(92,114,226,1) 50%);
+}
